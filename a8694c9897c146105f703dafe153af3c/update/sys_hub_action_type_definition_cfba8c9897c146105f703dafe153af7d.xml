@@ -14,7 +14,7 @@
         <copied_from_name/>
         <description>Connects to WatsonAI</description>
         <flow_priority/>
-        <ih_action>true</ih_action>
+        <ih_action>false</ih_action>
         <internal_name>watsonaiconnector</internal_name>
         <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputsysid}}","label":"action➛inputSysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"41abafd4-6d95-4b8b-b8e0-fa025d1c8a4e"}},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputtext}}","label":"action➛inputtext","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[02e34d21-5a12-4125-a8c0-7029141c0fbf].accesstoken}}","label":"step➛Script step➛accesstoken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6f84826b-daaa-4b62-a5dc-a22390af0a00].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c11f85ba-4759-4509-b2a5-49ae3bed4f8b].record}}","label":"step➛Look Up Record step➛WatsonxAIInputMessage Record","type":"step","ref":"x_146833_genaico_0_watsonxaiinput","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[48a8f5a4-979f-4101-a0d3-19d32d496a69].root.results}}","label":"step➛JSON Parser step➛root➛results","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>6f2dc410970546105f703dafe153af3b</master_snapshot>
@@ -22,14 +22,14 @@
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 16:55:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cfba8c9897c146105f703dafe153af7d</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>WatsonAIConnector</sys_name>
         <sys_overrides/>
         <sys_package display_value="GENAIConnector" source="x_146833_genaico_0">a8694c9897c146105f703dafe153af3c</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_cfba8c9897c146105f703dafe153af7d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:46:18</sys_updated_on>
+        <sys_updated_on>2024-03-17 17:32:06</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1063,7 +1063,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9bfa57d4974586105f703dafe153af9d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1071,7 +1071,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:46:15</sys_updated_on>
+        <sys_updated_on>2024-03-17 17:32:06</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1417,14 +1417,14 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 17:02:34</sys_created_on>
         <sys_id>614c40dc97c146105f703dafe153af48</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:46:15</sys_updated_on>
+        <sys_updated_on>2024-03-17 17:32:06</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

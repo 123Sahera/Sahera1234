@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 17:44:05</sys_created_on>
+        <sys_id>e648e230970d0a105f703dafe153afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_146833_upgrade_0.admin</sys_name>
+        <sys_package display_value="GENAIConnector" source="x_146833_genaico_0">a8694c9897c146105f703dafe153af3c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
+        <sys_security_acl display_value="sys_hub_flow">c5486a30970d0a105f703dafe153af3b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e648e230970d0a105f703dafe153afef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 17:44:05</sys_updated_on>
+        <sys_user_role display_value="x_146833_upgrade_0.admin" name="x_146833_upgrade_0.admin">7f71a1ac9701c6105f703dafe153af32</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
