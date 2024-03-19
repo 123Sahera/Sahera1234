@@ -14,22 +14,22 @@
         <copied_from_name/>
         <description>Connects to WatsonAI</description>
         <flow_priority/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>watsonaiconnector</internal_name>
-        <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputsysid}}","label":"action➛inputSysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"41abafd4-6d95-4b8b-b8e0-fa025d1c8a4e"}},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputtext}}","label":"action➛inputtext","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[02e34d21-5a12-4125-a8c0-7029141c0fbf].accesstoken}}","label":"step➛Script step➛accesstoken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6f84826b-daaa-4b62-a5dc-a22390af0a00].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c11f85ba-4759-4509-b2a5-49ae3bed4f8b].record}}","label":"step➛Look Up Record step➛WatsonxAIInputMessage Record","type":"step","ref":"x_146833_genaico_0_watsonxaiinput","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[48a8f5a4-979f-4101-a0d3-19d32d496a69].root.results}}","label":"step➛JSON Parser step➛root➛results","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputsysid}}","label":"action➛inputSysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"41abafd4-6d95-4b8b-b8e0-fa025d1c8a4e"}},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputtext}}","label":"action➛inputtext","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[02e34d21-5a12-4125-a8c0-7029141c0fbf].accesstoken}}","label":"step➛Script step➛accesstoken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6f84826b-daaa-4b62-a5dc-a22390af0a00].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[48a8f5a4-979f-4101-a0d3-19d32d496a69].root.results}}","label":"step➛JSON Parser step➛root➛results","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master_snapshot>6f2dc410970546105f703dafe153af3b</master_snapshot>
         <name>WatsonAIConnector</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 16:55:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cfba8c9897c146105f703dafe153af7d</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>WatsonAIConnector</sys_name>
         <sys_overrides/>
         <sys_package display_value="GENAIConnector" source="x_146833_genaico_0">a8694c9897c146105f703dafe153af3c</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_cfba8c9897c146105f703dafe153af7d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-17 17:32:06</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:19</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -72,7 +72,7 @@
         <variable display_value="Don't Treat as Error">614c40dc97c146105f703dafe153af48</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_cfba8c9897c146105f703dafe153af7d^id=cfba8c9897c146105f703dafe153af7d"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=cfba8c9897c146105f703dafe153af7d^sys_idNOT IN11f90618978d46105f703dafe153af81,15c75750974586105f703dafe153af51,49c75750974586105f703dafe153af48,514c00dc97c146105f703dafe153afe3,55171710974586105f703dafe153af0c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=cfba8c9897c146105f703dafe153af7d^sys_idNOT IN11f90618978d46105f703dafe153af81,514c00dc97c146105f703dafe153afe3,55171710974586105f703dafe153af0c"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="WatsonAIConnector">cfba8c9897c146105f703dafe153af7d</action>
         <cid>02e34d21-5a12-4125-a8c0-7029141c0fbf</cid>
@@ -242,179 +242,6 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="WatsonAIConnector">cfba8c9897c146105f703dafe153af7d</action>
-        <cid>fa7cf84d-393c-4979-8198-7064271a0b22</cid>
-        <error_handling_type>1</error_handling_type>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Update Record step</label>
-        <order>5</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:39</sys_created_on>
-        <sys_id>15c75750974586105f703dafe153af51</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:16:39</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=15c75750974586105f703dafe153af51"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>15c75750974586105f703dafe153af51</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:40</sys_created_on>
-        <sys_id>1dc75750974586105f703dafe153af6f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:16:39</sys_updated_on>
-        <value>responsetext=fd-scripted</value>
-        <variable display_value="Field Values">fcbf6c3667003200553fafb49585ef2e</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>15c75750974586105f703dafe153af51</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:40</sys_created_on>
-        <sys_id>ddc75750974586105f703dafe153af6f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:51:40</sys_updated_on>
-        <value>x_146833_genaico_0_watsonxaiinput</value>
-        <variable display_value="Table">3930d57267003200553fafb49585efc5</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=15c75750974586105f703dafe153af51"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>15c75750974586105f703dafe153af51</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:40</sys_created_on>
-        <sys_id>99c75750974586105f703dafe153af6f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:51:40</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value>{{step[c11f85ba-4759-4509-b2a5-49ae3bed4f8b].record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>15c75750974586105f703dafe153af51</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:40</sys_created_on>
-        <sys_id>15c75750974586105f703dafe153af6f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:51:40</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>update_record_field_values</field>
-        <id>15c75750974586105f703dafe153af51</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:40</sys_created_on>
-        <sys_id>d5c75750974586105f703dafe153af6f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:16:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_translated_text action="delete_multiple" query="documentkey=15c75750974586105f703dafe153af51"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=15c75750974586105f703dafe153af51"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=15c75750974586105f703dafe153af51"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=15c75750974586105f703dafe153af51^sys_idNOT IN537ddb98974586105f703dafe153afcc"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <input_name>update_record_field_values</input_name>
-        <instance>15c75750974586105f703dafe153af51</instance>
-        <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"responsetext":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n//sample resultArray [{ \t\"generated_text\": \" components and their functions.\\n.\", \t\"generated_token_count\": 696, \t\"input_token_count\": 10, \t\t\"stop_reason\": \"eos_token\"\t}];\nvar resultsArray \u003d fd_data._3__json_parser_step.root.results;\nvar resultRow \u003d resultsArray[0];\nreturn resultRow.generated_text;","savedValue":"{{step[48a8f5a4-979f-4101-a0d3-19d32d496a69].root.results}}"}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 08:16:39</sys_created_on>
-        <sys_id>537ddb98974586105f703dafe153afcc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:16:39</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_15c75750974586105f703dafe153af51"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="WatsonAIConnector">cfba8c9897c146105f703dafe153af7d</action>
-        <cid>c11f85ba-4759-4509-b2a5-49ae3bed4f8b</cid>
-        <error_handling_type>1</error_handling_type>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Look Up Record step</label>
-        <order>4</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:39</sys_created_on>
-        <sys_id>49c75750974586105f703dafe153af48</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:04:36</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=49c75750974586105f703dafe153af48"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>49c75750974586105f703dafe153af48</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:39</sys_created_on>
-        <sys_id>8dc75750974586105f703dafe153af4f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:51:39</sys_updated_on>
-        <value>x_146833_genaico_0_watsonxaiinput</value>
-        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=49c75750974586105f703dafe153af48"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>49c75750974586105f703dafe153af48</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:39</sys_created_on>
-        <sys_id>0dc75750974586105f703dafe153af4f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:51:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
-        <value>sys_id={{action.inputsysid}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>lookup_table_name</field>
-        <id>49c75750974586105f703dafe153af48</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:51:39</sys_created_on>
-        <sys_id>49c75750974586105f703dafe153af4f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:51:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_translated_text action="delete_multiple" query="documentkey=49c75750974586105f703dafe153af48"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=49c75750974586105f703dafe153af48"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=49c75750974586105f703dafe153af48"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=49c75750974586105f703dafe153af48"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_49c75750974586105f703dafe153af48"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="WatsonAIConnector">cfba8c9897c146105f703dafe153af7d</action>
         <cid>6f84826b-daaa-4b62-a5dc-a22390af0a00</cid>
@@ -1063,7 +890,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9bfa57d4974586105f703dafe153af9d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1071,7 +898,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-17 17:32:06</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:15</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -1351,7 +1178,107 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6c30e7dc974586105f703dafe153af29"/>
-    <sys_hub_action_output action="delete_multiple" query="model=cfba8c9897c146105f703dafe153af7d^sys_idNOT IN614c40dc97c146105f703dafe153af48,ed4c40dc97c146105f703dafe153af42"/>
+    <sys_hub_action_output action="delete_multiple" query="model=cfba8c9897c146105f703dafe153af7d^sys_idNOT IN1596b21d97c5ca105f703dafe153af23,614c40dc97c146105f703dafe153af48,ed4c40dc97c146105f703dafe153af42"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7b2745c5-59bf-4549-aa6c-a5f705a97e24</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>generatedtext</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="WatsonAIConnector">cfba8c9897c146105f703dafe153af7d</model>
+        <model_id>cfba8c9897c146105f703dafe153af7d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_cfba8c9897c146105f703dafe153af7d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 08:00:36</sys_created_on>
+        <sys_id>1596b21d97c5ca105f703dafe153af23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 08:00:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1596b21d97c5ca105f703dafe153af23"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1596b21d97c5ca105f703dafe153af23^sys_idNOT INe596b21d97c5ca105f703dafe153af59"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>variable</input_name>
+        <instance>1596b21d97c5ca105f703dafe153af23</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar resultsArray \u003d fd_data._3__json_parser_step.root.results;\nvar resultRow \u003d resultsArray[0];\nreturn resultRow.generated_text;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 08:00:36</sys_created_on>
+        <sys_id>e596b21d97c5ca105f703dafe153af59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 08:00:36</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -1399,7 +1326,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_cfba8c9897c146105f703dafe153af7d</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1417,14 +1344,14 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 17:02:34</sys_created_on>
         <sys_id>614c40dc97c146105f703dafe153af48</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-17 17:32:06</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:16</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1486,7 +1413,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <model_table>sys_hub_action_type_definition</model_table>
         <name>var__m_sys_hub_action_output_cfba8c9897c146105f703dafe153af7d</name>
         <next_element/>
-        <order>1</order>
+        <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -1504,14 +1431,14 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 17:02:34</sys_created_on>
         <sys_id>ed4c40dc97c146105f703dafe153af42</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-15 17:02:34</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:00:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1586,7 +1513,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_cfba8c9897c146105f703dafe153af7d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_cfba8c9897c146105f703dafe153af7d^sys_idNOT IN614c40dc97c146105f703dafe153af47,e54c40dc97c146105f703dafe153af4d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_cfba8c9897c146105f703dafe153af7d^sys_idNOT IN614c40dc97c146105f703dafe153af47,d996b21d97c5ca105f703dafe153af29,e54c40dc97c146105f703dafe153af4d"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -1607,6 +1534,29 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-03-15 17:02:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>generatedtext</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_cfba8c9897c146105f703dafe153af7d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 08:00:36</sys_created_on>
+        <sys_id>d996b21d97c5ca105f703dafe153af29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GENAIConnector" source="x_146833_genaico_0">a8694c9897c146105f703dafe153af3c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 08:00:36</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -1638,17 +1588,17 @@ outputs.accesstoken = grToken.u_access_token;&#13;
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="WatsonAIConnector">cfba8c9897c146105f703dafe153af7d</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3f2dc410970546105f703dafe153afa9","name":"plan","plan_signature":null}}</plan>
-        <snapshot>ad442754978586105f703dafe153af2c</snapshot>
+        <snapshot>d6a7ba9d97c5ca105f703dafe153afa6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 17:06:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3f2dc410970546105f703dafe153afa9</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:46:19</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:20</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1665,7 +1615,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <description>Connects to WatsonAI</description>
         <flow_priority/>
         <internal_name>watsonaiconnector</internal_name>
-        <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputsysid}}","label":"action➛inputSysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"41abafd4-6d95-4b8b-b8e0-fa025d1c8a4e"}},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputtext}}","label":"action➛inputtext","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[02e34d21-5a12-4125-a8c0-7029141c0fbf].accesstoken}}","label":"step➛Script step➛accesstoken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6f84826b-daaa-4b62-a5dc-a22390af0a00].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[c11f85ba-4759-4509-b2a5-49ae3bed4f8b].record}}","label":"step➛Look Up Record step➛WatsonxAIInputMessage Record","type":"step","ref":"x_146833_genaico_0_watsonxaiinput","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[48a8f5a4-979f-4101-a0d3-19d32d496a69].root.results}}","label":"step➛JSON Parser step➛root➛results","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputsysid}}","label":"action➛inputSysId","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"41abafd4-6d95-4b8b-b8e0-fa025d1c8a4e"}},{"name":"{{action.record}}","label":"action➛record","type":"action","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.inputtext}}","label":"action➛inputtext","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[02e34d21-5a12-4125-a8c0-7029141c0fbf].accesstoken}}","label":"step➛Script step➛accesstoken","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6f84826b-daaa-4b62-a5dc-a22390af0a00].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[48a8f5a4-979f-4101-a0d3-19d32d496a69].root.results}}","label":"step➛JSON Parser step➛root➛results","type":"step","ref":"","reference_display":"","base_type":"array.object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
         <master>true</master>
         <name>WatsonAIConnector</name>
         <natlang/>
@@ -1677,7 +1627,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f2dc410970546105f703dafe153af3b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1685,7 +1635,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:28:31</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
@@ -1720,113 +1670,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <variable display_value="Action Status">6b2dc410970546105f703dafe153af6e</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_6f2dc410970546105f703dafe153af3b^id=6f2dc410970546105f703dafe153af3b"/>
-    <sys_hub_step_instance action="delete_multiple" query="action=6f2dc410970546105f703dafe153af3b^sys_idNOT IN37981f90974586105f703dafe153af7c,65e3a6d8970186105f703dafe153afdb,a32dc410970546105f703dafe153af46,bf981f90974586105f703dafe153af62,f7981f90974586105f703dafe153af75"/>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="WatsonAIConnector">6f2dc410970546105f703dafe153af3b</action>
-        <cid>fa7cf84d-393c-4979-8198-7064271a0b22</cid>
-        <error_handling_type>1</error_handling_type>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Update Record step</label>
-        <order>5</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>37981f90974586105f703dafe153af7c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:19:31</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=37981f90974586105f703dafe153af7c"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>37981f90974586105f703dafe153af7c</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>77981f90974586105f703dafe153af81</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:55:23</sys_updated_on>
-        <value>x_146833_genaico_0_watsonxaiinput</value>
-        <variable display_value="Table">3930d57267003200553fafb49585efc5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>37981f90974586105f703dafe153af7c</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>b3981f90974586105f703dafe153af81</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:19:31</sys_updated_on>
-        <value>responsetext=fd-scripted</value>
-        <variable display_value="Field Values">fcbf6c3667003200553fafb49585ef2e</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=37981f90974586105f703dafe153af7c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>37981f90974586105f703dafe153af7c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>33981f90974586105f703dafe153af81</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:55:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value>{{step[c11f85ba-4759-4509-b2a5-49ae3bed4f8b].record}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>37981f90974586105f703dafe153af7c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>bb981f90974586105f703dafe153af80</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:55:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>update_record_field_values</field>
-        <id>37981f90974586105f703dafe153af7c</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>7f981f90974586105f703dafe153af80</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:55:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_translated_text action="delete_multiple" query="documentkey=37981f90974586105f703dafe153af7c"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=37981f90974586105f703dafe153af7c"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=37981f90974586105f703dafe153af7c"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=37981f90974586105f703dafe153af7c^sys_idNOT INd92e5fd8974586105f703dafe153af19"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <input_name>update_record_field_values</input_name>
-        <instance>37981f90974586105f703dafe153af7c</instance>
-        <referenced_table>sys_hub_step_instance</referenced_table>
-        <script>{"responsetext":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n//sample resultArray [{ \t\"generated_text\": \" components and their functions.\\n.\", \t\"generated_token_count\": 696, \t\"input_token_count\": 10, \t\t\"stop_reason\": \"eos_token\"\t}];\nvar resultsArray \u003d fd_data._3__json_parser_step.root.results;\nvar resultRow \u003d resultsArray[0];\nreturn resultRow.generated_text;","savedValue":"{{step[48a8f5a4-979f-4101-a0d3-19d32d496a69].root.results}}"}}</script>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 08:19:31</sys_created_on>
-        <sys_id>d92e5fd8974586105f703dafe153af19</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:19:31</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_37981f90974586105f703dafe153af7c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=6f2dc410970546105f703dafe153af3b^sys_idNOT IN65e3a6d8970186105f703dafe153afdb,a32dc410970546105f703dafe153af46,bf981f90974586105f703dafe153af62"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="WatsonAIConnector">6f2dc410970546105f703dafe153af3b</action>
         <cid>02e34d21-5a12-4125-a8c0-7029141c0fbf</cid>
@@ -2644,7 +2488,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ff981f90974586105f703dafe153af65</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -2652,7 +2496,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:46:17</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:18</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2763,73 +2607,6 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_hub_step_instance action="INSERT_OR_UPDATE">
-        <action display_value="WatsonAIConnector">6f2dc410970546105f703dafe153af3b</action>
-        <cid>c11f85ba-4759-4509-b2a5-49ae3bed4f8b</cid>
-        <error_handling_type>1</error_handling_type>
-        <extended_inputs/>
-        <extended_outputs/>
-        <icon/>
-        <inputs/>
-        <inputs/>
-        <label>Look Up Record step</label>
-        <order>4</order>
-        <outputs/>
-        <section/>
-        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>f7981f90974586105f703dafe153af75</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:19:31</sys_updated_on>
-    </sys_hub_step_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=f7981f90974586105f703dafe153af75"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_step_instance</document>
-        <document_key>f7981f90974586105f703dafe153af75</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>bf981f90974586105f703dafe153af7a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:55:23</sys_updated_on>
-        <value>x_146833_genaico_0_watsonxaiinput</value>
-        <variable display_value="Table">f9cc66043b23220057a4a2e334efc42f</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=f7981f90974586105f703dafe153af75"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>conditions</field>
-        <id>f7981f90974586105f703dafe153af75</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>3f981f90974586105f703dafe153af7a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:55:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
-        <value>sys_id={{action.inputsysid}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>lookup_table_name</field>
-        <id>f7981f90974586105f703dafe153af75</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:55:23</sys_created_on>
-        <sys_id>7b981f90974586105f703dafe153af7a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 07:55:23</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_translated_text action="delete_multiple" query="documentkey=f7981f90974586105f703dafe153af75"/>
-    <sys_hub_step_ext_input action="delete_multiple" query="model=f7981f90974586105f703dafe153af75"/>
-    <sys_hub_step_ext_output action="delete_multiple" query="model=f7981f90974586105f703dafe153af75"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=f7981f90974586105f703dafe153af75"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f7981f90974586105f703dafe153af75"/>
     <sys_hub_action_input action="delete_multiple" query="model=6f2dc410970546105f703dafe153af3b^sys_idNOT IN95302bdc974586105f703dafe153af13,ab981f90974586105f703dafe153af34"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2999,7 +2776,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <xml_view>false</xml_view>
     </sys_hub_action_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ab981f90974586105f703dafe153af34"/>
-    <sys_hub_action_output action="delete_multiple" query="model=6f2dc410970546105f703dafe153af3b^sys_idNOT IN3b2dc410970546105f703dafe153af73,6b2dc410970546105f703dafe153af6e"/>
+    <sys_hub_action_output action="delete_multiple" query="model=6f2dc410970546105f703dafe153af3b^sys_idNOT IN3b2dc410970546105f703dafe153af73,6b2dc410970546105f703dafe153af6e,9aa7ba9d97c5ca105f703dafe153af96"/>
     <sys_hub_action_output action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -3047,7 +2824,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_6f2dc410970546105f703dafe153af3b</name>
         <next_element/>
-        <order>2</order>
+        <order>3</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3065,14 +2842,14 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 17:06:33</sys_created_on>
         <sys_id>3b2dc410970546105f703dafe153af73</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 08:46:18</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3134,7 +2911,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <model_table>sys_hub_action_type_snapshot</model_table>
         <name>var__m_sys_hub_action_output_6f2dc410970546105f703dafe153af3b</name>
         <next_element/>
-        <order>1</order>
+        <order>2</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -3152,14 +2929,14 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 17:06:33</sys_created_on>
         <sys_id>6b2dc410970546105f703dafe153af6e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-15 17:06:33</sys_updated_on>
+        <sys_updated_on>2024-03-19 08:05:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3174,6 +2951,106 @@ outputs.accesstoken = grToken.u_access_token;&#13;
     </sys_hub_action_output>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6b2dc410970546105f703dafe153af6e"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6b2dc410970546105f703dafe153af6e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=7b2745c5-59bf-4549-aa6c-a5f705a97e24</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>generatedtext</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="WatsonAIConnector">6f2dc410970546105f703dafe153af3b</model>
+        <model_id>6f2dc410970546105f703dafe153af3b</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6f2dc410970546105f703dafe153af3b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 08:05:18</sys_created_on>
+        <sys_id>9aa7ba9d97c5ca105f703dafe153af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 08:05:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9aa7ba9d97c5ca105f703dafe153af96"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9aa7ba9d97c5ca105f703dafe153af96^sys_idNOT IN1ea7ba9d97c5ca105f703dafe153afa3"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>variable</input_name>
+        <instance>9aa7ba9d97c5ca105f703dafe153af96</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nvar resultsArray \u003d fd_data._3__json_parser_step.root.results;\nvar resultRow \u003d resultsArray[0];\nreturn resultRow.generated_text;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 08:05:18</sys_created_on>
+        <sys_id>1ea7ba9d97c5ca105f703dafe153afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 08:05:18</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=6f2dc410970546105f703dafe153af3b"/>
     <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=6f2dc410970546105f703dafe153af3b^sys_idNOT INb32dc410970546105f703dafe153af7d"/>
     <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
@@ -3234,7 +3111,7 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6f2dc410970546105f703dafe153af3b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6f2dc410970546105f703dafe153af3b^sys_idNOT IN3b2dc410970546105f703dafe153af72,f32dc410970546105f703dafe153af78"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6f2dc410970546105f703dafe153af3b^sys_idNOT IN3b2dc410970546105f703dafe153af72,5aa7ba9d97c5ca105f703dafe153af9a,f32dc410970546105f703dafe153af78"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -3255,6 +3132,29 @@ outputs.accesstoken = grToken.u_access_token;&#13;
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-03-15 17:06:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>generatedtext</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6f2dc410970546105f703dafe153af3b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 08:05:18</sys_created_on>
+        <sys_id>5aa7ba9d97c5ca105f703dafe153af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="GENAIConnector" source="x_146833_genaico_0">a8694c9897c146105f703dafe153af3c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 08:05:18</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
