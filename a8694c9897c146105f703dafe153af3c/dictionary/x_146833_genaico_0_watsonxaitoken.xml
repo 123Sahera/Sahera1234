@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8eb01854970546105f703dafe153afa0" extends="sys_import_set_row" label="WatsonxAIToken" max_length="40" name="x_146833_genaico_0_watsonxaitoken" type="collection">
+        <element default="javascript:gs.getProperty('x_146833_genaico_0.apikey')" dynamic_default_value="927012bd97cd4e105f703dafe153afa4" label="ApiKey" max_length="46" name="apikey" type="string" use_dynamic_default="true"/>
         <element label="RefreshToken" max_length="255" name="refreshtoken" type="boolean"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=access_token" label="access_token" max_length="1507" name="u_access_token" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=expiration" label="expiration" max_length="40" name="u_expiration" type="string"/>

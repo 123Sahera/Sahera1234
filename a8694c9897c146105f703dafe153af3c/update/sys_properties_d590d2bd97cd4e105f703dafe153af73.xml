@@ -4,24 +4,24 @@
         <description/>
         <ignore_cache>true</ignore_cache>
         <is_private>false</is_private>
-        <name>x_146833_genaico_0.watsonxai.projectId</name>
+        <name>x_146833_genaico_0.apikey</name>
         <read_roles/>
-        <suffix>watsonxai.projectId</suffix>
+        <suffix>apikey</suffix>
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 10:22:37</sys_created_on>
-        <sys_id>d33a3754970986105f703dafe153aff5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_146833_genaico_0.watsonxai.projectId</sys_name>
+        <sys_created_on>2024-03-20 18:31:47</sys_created_on>
+        <sys_id>d590d2bd97cd4e105f703dafe153af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_146833_genaico_0.apikey</sys_name>
         <sys_package display_value="GENAIConnector" source="x_146833_genaico_0">a8694c9897c146105f703dafe153af3c</sys_package>
         <sys_policy/>
         <sys_scope display_value="GENAIConnector">a8694c9897c146105f703dafe153af3c</sys_scope>
-        <sys_update_name>sys_properties_d33a3754970986105f703dafe153aff5</sys_update_name>
+        <sys_update_name>sys_properties_d590d2bd97cd4e105f703dafe153af73</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-20 18:21:39</sys_updated_on>
+        <sys_updated_on>2024-03-20 18:31:47</sys_updated_on>
         <type>string</type>
-        <value>0dca60ad-b910-45b9-835e-005ac3065ce9</value>
+        <value>1lJ8H0JOIxFhb3CYJNQxkf-66UyAsB60eNhTXXLmA5xW</value>
         <write_roles/>
     </sys_properties>
-    <sys_translated_text action="delete_multiple" query="documentkey=d33a3754970986105f703dafe153aff5"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d590d2bd97cd4e105f703dafe153af73"/>
 </record_update>
